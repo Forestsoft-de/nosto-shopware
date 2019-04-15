@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c59204001e83412fbe66299d52836385",
+    "content-hash": "cfcc6e5fb45a4f8d1d6e98f8e0918c6b",
     "packages": [
         {
             "name": "nosto/php-sdk",
-            "version": "3.12.1",
+            "version": "dev-hotfix/phpdotenv-reflection",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Nosto/nosto-php-sdk.git",
-                "reference": "4ab720d3fb1cb95a8edfb9c4a303f8957601beb5"
+                "reference": "15504570aea2e30b6905c8441354f4ebbca4ee87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Nosto/nosto-php-sdk/zipball/4ab720d3fb1cb95a8edfb9c4a303f8957601beb5",
-                "reference": "4ab720d3fb1cb95a8edfb9c4a303f8957601beb5",
+                "url": "https://api.github.com/repos/Nosto/nosto-php-sdk/zipball/15504570aea2e30b6905c8441354f4ebbca4ee87",
+                "reference": "15504570aea2e30b6905c8441354f4ebbca4ee87",
                 "shasum": ""
             },
             "require": {
@@ -51,7 +51,7 @@
                 "BSD-3-Clause"
             ],
             "description": "PHP SDK for developing Nosto modules for e-commerce platforms",
-            "time": "2019-03-28T08:25:44+00:00"
+            "time": "2019-04-15T14:14:01+00:00"
         },
         {
             "name": "phpseclib/phpseclib",
@@ -4019,7 +4019,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "nosto/php-sdk": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
